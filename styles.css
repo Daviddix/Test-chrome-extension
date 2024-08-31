@@ -21,7 +21,7 @@ header{
     justify-content: start;
     column-gap: .5rem;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.199);
+    background-color: hsla(203, 38%, 46%, 0.712);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -34,9 +34,9 @@ header button{
     flex: 1;
     display: block;
     height:100%;
-    background-color: rgba(0, 0, 0, 0.452);
+    background-color: hsla(202, 95%, 56%, 0.712);
     cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.473);
+    border: 1px solid rgba(0, 28, 44, 0.336);
     border-radius: 3px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -47,6 +47,16 @@ header button{
     font-family: manrope;
     letter-spacing: -.1px;
     font-weight: 600;
+    opacity: .6;
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+header button.active{
+    opacity: 1;
 }
 
 p{
