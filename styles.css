@@ -1,0 +1,57 @@
+*, *::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 30rem;
+    padding: 1rem;
+}
+
+header{
+    border: 1px solid rgba(0, 0, 0, 0.466);
+    height:3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: .5rem;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.199);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: .2rem;
+}
+
+header button{
+    flex: 1;
+    display: block;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.452);
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.473);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    color: white;
+    font-size: 1.2rem;
+    font-family: manrope;
+    letter-spacing: -.1px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: manrope;
+    letter-spacing: -.1px;
+    margin: 1rem 0;
+}
